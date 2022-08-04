@@ -1,0 +1,9 @@
+lockfileVersion: 5.4
+
+importers:
+
+  packages/components:
+    specifiers:
+      '@sihan/hooks': workspace:^0.0.1
+    devDependencies:
+      '@sihan/hooks': link:../hooks
