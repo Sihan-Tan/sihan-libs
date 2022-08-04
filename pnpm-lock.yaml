@@ -2,6 +2,9 @@ lockfileVersion: 5.4
 
 importers:
 
+  .:
+    specifiers: {}
+
   packages/components:
     specifiers:
       '@sihan/hooks': workspace:^0.0.1
