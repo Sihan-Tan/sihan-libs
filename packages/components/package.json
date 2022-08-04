@@ -1,6 +1,6 @@
 {
   "name": "@sihan/components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "components",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@sihan/hooks": "^0.0.2"
+    "@sihan/hooks": "^0.0.3"
   }
 }
