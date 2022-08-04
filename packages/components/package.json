@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@sihan/hooks": "workspace:^0.0.2"
+    "@sihan/hooks": "^0.0.2"
   }
 }

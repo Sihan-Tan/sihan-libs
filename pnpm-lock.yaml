@@ -35,9 +35,12 @@ importers:
 
   packages/components:
     specifiers:
-      '@sihan/hooks': workspace:^0.0.2
+      '@sihan/hooks': ^0.0.2
     devDependencies:
       '@sihan/hooks': link:../hooks
+
+  packages/hooks:
+    specifiers: {}
 
 packages:
 
