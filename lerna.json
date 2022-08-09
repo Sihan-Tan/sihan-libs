@@ -10,7 +10,9 @@
   "packages": ["packages/*"],
   "command": {
     "publish": {
-      "ignoreChanges": ["*.md", "tests"]
+      "conventionalCommit": true,
+      "message": "[skip ci]: chore: release"
     }
-  }
+  },
+  "ignoreChanges": ["**/node_modules/**", "**/__snapshots__/*", "**/tests/**"]
 }
