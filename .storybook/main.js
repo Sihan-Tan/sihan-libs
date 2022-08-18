@@ -17,6 +17,7 @@ module.exports = {
       },
     },
     "storybook-dark-mode",
+    "msw-storybook-addon",
   ],
   framework: "@storybook/react",
   core: {
@@ -27,5 +28,7 @@ module.exports = {
         fsCache: true,
       },
     },
+    disableTelemetry: true,
   },
+  staticDirs: ["../public"],
 };
